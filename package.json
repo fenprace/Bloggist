@@ -2,9 +2,10 @@
   "name": "postissue",
   "version": "0.1.0",
   "description": "Turn github issues and gists into websites.",
-  "main": "src/index.js",
+  "main": "src/index.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "snowpack dev"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/fenprace/PosTissue/issues"
   },
-  "homepage": "https://github.com/fenprace/PosTissue#readme"
+  "homepage": "https://github.com/fenprace/PosTissue#readme",
+  "devDependencies": {
+    "marked": "^2.0.5",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "snowpack": "^3.5.1"
+  }
 }

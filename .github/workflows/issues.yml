@@ -19,5 +19,5 @@ jobs:
       - name: Fetch issues
         uses: githubocto/flat@v2
         with:
-          http_url: https://api.github.com/repos/alienzhou/blog/issues?per_page=100&sort=created&filter=all&direction=desc&page=1
+          http_url: https://api.github.com/repos/alienzhou/blog/issues?per_page=100&sort=created&filter=all&direction=desc&page=1?state=open
           downloaded_filename: public/issues.json
