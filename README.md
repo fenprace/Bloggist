@@ -1,2 +1,3 @@
-# Bloggist
-Turn github gists and more into blog posts
+# PosTissue
+
+Turn github issues and gists into webpages.
