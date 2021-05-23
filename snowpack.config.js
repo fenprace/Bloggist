@@ -11,4 +11,11 @@ module.exports = {
     minify: true,
     target: 'es2017',
   },
+  routes: [
+    {
+      match: 'routes',
+      src: '.*',
+      dest: '/index.html',
+    },
+  ],
 }

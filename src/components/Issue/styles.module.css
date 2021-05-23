@@ -1,0 +1,68 @@
+.issue {
+  height: calc(100vh - 2rem);
+  width: auto;
+  column-width: 400px;
+  column-fill: auto;
+  overflow-x: auto;
+  column-gap: 2rem;
+  column-rule: 1px solid lightgray;
+  padding: 1rem;
+}
+
+.issue p {
+  font-size: 1rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin: 0.5rem 0 0 0;
+}
+
+.issue h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.2em;
+  margin: 1rem 0 0 0;
+}
+
+.issue h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2em;
+  margin: 1.5rem 0 0 0;
+}
+
+.issue h3 {
+  font-size: 1.25rem;
+  margin: 1rem 0 0 0;
+}
+
+.issue img {
+  max-width: 100%;
+}
+
+.issue pre {
+  overflow: auto;
+  break-inside: avoid;
+}
+
+.tagList {
+  margin: 0.5rem 0 0 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.tagList li {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  border-radius: 0.75rem;
+  padding: 0 0.75rem;
+  margin-left: 0.25rem;
+  font-size: 0.8rem;
+  border: 1px solid white;
+}
+
+.tagList li:first-child {
+  margin: 0;
+}
